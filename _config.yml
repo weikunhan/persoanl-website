@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Weikun Han's Website
 subtitle: ''
 description: ''
 keywords:
@@ -90,14 +90,114 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: volantis
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
   repo: https://github.com/weikunhan/weikunhan.github.io
   branch: master
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: hexo-theme-volantis
+
+# Replace theme configs
+theme_config:
+  ## The style config:
+
+  ## The cover config
+  cover:
+    scheme: docs
+    display:
+      home: true
+      archive: true
+      others: true 
+    logo: 
+    title: Weikun Han
+    subtitle: '「Computer Vision Scientist II at Clobotics Global」'
+    search: 
+    features:
+      - name: Email
+        icon: fas fa-envelope-square
+        url: mailto:weikunhan@gmail.com
+      - name: GitHub
+        icon: fab fa-github-square
+        url: https://github.com/weikunhan/
+      - name: LinkedIn
+        icon: fab fa-linkedin
+        url: https://www.linkedin.com/in/weikunhan/
+      - name: Google Scholar
+        icon: fas fa-university
+        url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
+      - name: Curriculum Vitae
+        icon: fas fa-file-download
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/resumes/curriculum_vitae.pdf
+  ## The navbar config
+  navbar:
+    logo: 
+      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/images/weikun_han_web_3.png
+      icon: 
+      title: 
+    menu:
+    search:
+  ## The widget config
+  widget:
+    blogger:
+      class: blogger
+      display: [desktop, mobile]
+      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/images/20200321_232310502_iOS.jpg
+      shape: rectangle
+      url: 
+      title: Weikun Han
+      subtitle: Computer Vision Scientist II at Clobotics Global
+      jinrishici: false
+      social: true
+  ## The footer config
+  footer:
+    layout: [aplayer, social, info, copyright]
+    social:
+      - icon: fas fa-envelope-square
+        url: mailto:weikunhan@gmail.com
+      - icon: fab fa-github-square
+        url: https://github.com/weikunhan/
+      - icon: fab fa-linkedin
+        url: https://www.linkedin.com/in/weikunhan/
+      - icon: fas fa-university
+        url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
+      - icon: fas fa-file-download
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/resumes/curriculum_vitae.pdf
+    copyright: '[Copyright © 2020 Weikun Han](https://weikunhan.github.io)'
+    br: '<br>'
+  ## The plugins config
+  plugins:
+    backstretch:
+      enable: true
+      js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
+      position: cover       
+      shuffle: true         
+      duration: 30000     
+      fade: 1500            
+      images:               
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_A1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_A2.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_B1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_C1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_D1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_D2.jpeg
+    aplayer:
+      enable: true
+      js:
+        - https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
+        - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
+      server: tencent   
+      type: search    
+      id: G.E.M.   
+      fixed: false      
+      theme: '#1BCDFC'  
+      autoplay: false   
+      order: list       
+      loop: all        
+      volume: 0.3      
+      list_max_height: 340px 
+      list_folded: true
