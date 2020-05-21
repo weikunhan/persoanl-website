@@ -16,7 +16,7 @@
   url: /projects
   rows:
     - name: Coming Soon
-      url: /
+      url: 
 - name: Courses
   icon: fas fa-graduation-cap
   url: /courses

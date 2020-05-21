@@ -4,7 +4,6 @@ title: Publications
 meta:
   header: []
   footer: []
-
 ---
 
 ## Selected Journal Publications

@@ -244,7 +244,7 @@ theme_config:
         - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
       server: tencent   
       type: search    
-      id: Eric Chou
+      id: Mozart Lang Lang
       fixed: false      
       theme: '#1BCDFC'  
       autoplay: true   
