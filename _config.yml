@@ -149,7 +149,7 @@ theme_config:
     logo: 
     title: Weikun Han
     subtitle: '「Computer Vision Scientist II at Clobotics Global」'
-    search: 'Search projects or publications...'
+    search: 'Search...'
     features:
       - name: Home
         icon: fas fa-home
@@ -176,7 +176,7 @@ theme_config:
       icon: 
       title: 
     menu:
-    search: 'Search projects or publications...'
+    search: 'Search...'
   ## The meto library
   meta:
     # 默认文章作者（可在front-matter中覆盖）
