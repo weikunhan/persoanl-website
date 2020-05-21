@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://weikunhan.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,7 +94,7 @@ ignore:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: https://github.com/weikunhan/weikunhan.github.io
+  repo: https://github.com/weikunhan/weikunhan.github.io/
   branch: master
 
 # Extensions
@@ -105,7 +105,40 @@ theme: hexo-theme-volantis
 # Replace theme configs
 theme_config:
   ## The style config:
-
+  style:
+    fontsize:
+      root: 18px
+      h1: 1.625rem
+      h2: 1.375rem
+      h3: 1.25rem
+      h4: 1.125rem
+      h5: 1rem
+      h6: 1rem
+      body: 1rem
+      list: .9375rem
+      meta: .875rem
+      code: .8125rem
+      footnote: .75rem
+    fontfamily:
+      logofont:
+        fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+        name: 'Varela Round'
+        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+        weight: normal
+        style: normal
+      bodyfont:
+        fontfamily: 'UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+        name: 'UbuntuMono'
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/fonts/times_new_roman.ttf
+        weight: normal
+        style: normal
+        offset: 0.1rem # Correct baseline for zh-CN
+      codefont:
+        fontfamily: 'Menlo, UbuntuMono, Monaco'
+        # name: 'Monaco'
+        # url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
+        # weight: normal
+        # style: normal   
   ## The cover config
   cover:
     scheme: docs
@@ -116,43 +149,62 @@ theme_config:
     logo: 
     title: Weikun Han
     subtitle: '「Computer Vision Scientist II at Clobotics Global」'
-    search: 
+    search: 'Search projects or publications...'
     features:
-      - name: Email
-        icon: fas fa-envelope-square
-        url: mailto:weikunhan@gmail.com
-      - name: GitHub
-        icon: fab fa-github-square
-        url: https://github.com/weikunhan/
-      - name: LinkedIn
-        icon: fab fa-linkedin
-        url: https://www.linkedin.com/in/weikunhan/
-      - name: Google Scholar
-        icon: fas fa-university
-        url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
-      - name: Curriculum Vitae
-        icon: fas fa-file-download
-        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/resumes/curriculum_vitae.pdf
+      - name: Home
+        icon: fas fa-home
+        url: /
+      - name: Publications
+        icon: fas fa-file-alt
+        url: /publications
+      - name: Projects
+        icon: fas fa-robot
+        url: /projects
+      - name: Courses
+        icon: fas fa-graduation-cap
+        url: /courses
+      - name: Awards
+        icon: fas fa-trophy
+        url: /awards
+      - name: Blogs
+        icon: fas fa-book
+        url: /blogs
   ## The navbar config
   navbar:
     logo: 
-      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/images/weikun_han_web_3.png
+      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_web_3.png
       icon: 
       title: 
     menu:
-    search:
+    search: 'Search projects or publications...'
+  ## The meto library
+  meta:
+    # 默认文章作者（可在front-matter中覆盖）
+    author:
+      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
+      name: Weikun Han
+      url: 
   ## The widget config
   widget:
     blogger:
       class: blogger
       display: [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/images/20200321_232310502_iOS.jpg
+      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
       shape: rectangle
       url: 
       title: Weikun Han
       subtitle: Computer Vision Scientist II at Clobotics Global
       jinrishici: false
       social: true
+    toc:
+      class: toc
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fas fa-list
+        title: Contents
+      list_number: false
+      min_depth: 2
+      max_depth: 5
   ## The footer config
   footer:
     layout: [aplayer, social, info, copyright]
@@ -166,7 +218,7 @@ theme_config:
       - icon: fas fa-university
         url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
       - icon: fas fa-file-download
-        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/resumes/curriculum_vitae.pdf
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf
     copyright: '[Copyright © 2020 Weikun Han](https://weikunhan.github.io)'
     br: '<br>'
   ## The plugins config
@@ -176,15 +228,15 @@ theme_config:
       js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
       position: cover       
       shuffle: true         
-      duration: 30000     
+      duration: 30000
       fade: 1500            
       images:               
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_A1.jpeg
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_A2.jpeg
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_B1.jpeg
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_C1.jpeg
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_D1.jpeg
-        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/wallpapers/abstract_D2.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_A1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_A2.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_B1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_C1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_D1.jpeg
+        - https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/wallpapers/abstract_D2.jpeg
     aplayer:
       enable: true
       js:
@@ -192,10 +244,10 @@ theme_config:
         - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
       server: tencent   
       type: search    
-      id: G.E.M.   
+      id: Eric Chou
       fixed: false      
       theme: '#1BCDFC'  
-      autoplay: false   
+      autoplay: true   
       order: list       
       loop: all        
       volume: 0.3      

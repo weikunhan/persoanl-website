@@ -1,0 +1,13 @@
+# Layout Configuration
+on_list:
+  meta: [title, author, category, date, wordcount, top]
+  sidebar: [blogger, category, tagcloud, qrcode]
+  readmore: Read More <i class="fas fa-chevron-right"></i>
+on_page:
+  body: [article]
+  meta:
+    header: [title, author, category, date, top]
+    footer: [updated, tags, btns, share]
+  sidebar: [qrcode, toc]
+on_post:
+  article_footer: [references, related_repos, copyright, donate]
