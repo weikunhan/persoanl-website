@@ -15,7 +15,6 @@ meta:
 * Machine Learning, Stanford University, Coursera
 * Introduction to Self-Driving Cars, University of Toronto, Coursera
 * Convex Optimization, University of California Los Angeles, Spring 2018
-* Special Topics: Security and Privacy for Embedded Systems, Cyber-Physical Systems, and Internet of Things, University of California Los Angeles, Winter 2018
 * Large Scale Social and Complex Networks: Design and Algorithms, University of California Los Angeles, Spring 2017
 * Large-Scale Data Mining: Models and Algorithms, University of California Los Angeles, Winter 2017
 

@@ -248,7 +248,7 @@ theme_config:
       fixed: false      
       theme: '#1BCDFC'  
       autoplay: true   
-      order: list       
+      order: random       
       loop: all        
       volume: 0.3      
       list_max_height: 340px 

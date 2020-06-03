@@ -17,12 +17,12 @@ meta:
 ## 0pen Source Projects
 
 {% btns rounded grid3 %}
-{% cell Coming soon, /projects, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_code.png %}
+{% cell Tripadvisor Web Crawler, https://github.com/weikunhan/tripadvisor-web-crawler, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_code.png %}
 {% endbtns %}
 
 ## Individual Projects
 
 {% btns rounded grid3 %}
-{% cell LeetCode-Python, https://github.com/weikunhan/leetcode-summary-python, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_leetcode.png %}
+{% cell LeetCode Python, https://github.com/weikunhan/leetcode-summary-python, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_leetcode.png %}
 {% cell Coming soon, /projects, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_kaggle.png %}
 {% endbtns %}
