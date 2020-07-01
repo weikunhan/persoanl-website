@@ -148,7 +148,7 @@ theme_config:
       others: true 
     logo: 
     title: Weikun Han
-    subtitle: '「Computer Vision Scientist II at Clobotics Global」'
+    subtitle: '「Research Assistant Intern at Oregon State University」'
     search: 'Search...'
     features:
       - name: Home
@@ -193,7 +193,7 @@ theme_config:
       shape: rectangle
       url: 
       title: Weikun Han
-      subtitle: Computer Vision Scientist II at Clobotics Global
+      subtitle: Research Assistant Intern at Oregon State University
       jinrishici: false
       social: true
     toc:
