@@ -4,6 +4,7 @@ title: News
 meta:
   header: []
   footer: []
+sidebar: []
 ---
 
 {% span logo blue bold h1, News %}

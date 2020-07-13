@@ -3,11 +3,9 @@ layout: page
 title: Wrote before deciding to proceed my Ph.D.study
 date: 2020-4-29
 group: blogs
-meta:
-  footer: [updated]
 ---
 
-*“⼈⽣过早的⾯对失败和挫折，要⽐不惑之年再想明⽩很多事情要好很多。“ - 韩劲谦*
+{% image /images/phd_study.png, 600px, ⼈⽣过早的⾯对失败和挫折，要⽐不惑之年再想明⽩很多事情要好很多 - 韩劲谦 %}
 
 <!-- more -->
 

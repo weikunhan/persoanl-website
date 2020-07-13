@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Biography
-top: true
+pin: true
 meta:
   header: []
   footer: []
+sidebar: []
 ---
 
 {% span logo blue bold h1, About %}

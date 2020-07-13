@@ -106,6 +106,12 @@ theme: hexo-theme-volantis
 theme_config:
   ## The style config:
   style:
+    navbar:
+      height: 64px
+      width: auto 
+      effect: [shadow, blur, floatable] 
+    sidebar:
+      effect: [shadow, blur, floatable] 
     fontsize:
       root: 18px
       h1: 1.625rem
@@ -135,10 +141,10 @@ theme_config:
         offset: 0.1rem # Correct baseline for zh-CN
       codefont:
         fontfamily: 'Menlo, UbuntuMono, Monaco'
-        # name: 'Monaco'
-        # url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
-        # weight: normal
-        # style: normal   
+        name: 'Monaco'
+        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
+        weight: normal
+        style: normal   
   ## The cover config
   cover:
     scheme: docs
@@ -172,39 +178,30 @@ theme_config:
   ## The navbar config
   navbar:
     logo: 
-      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_web_3.png
+      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/new_weikun_han_web_1.png
       icon: 
       title: 
-    menu:
+    ## Move to source/_data/menu.yml
+    #menu: 
     search: 'Search...'
+  ## The layout config move to source/_data/layout.yml
+  ##layout:
   ## The meto library
   meta:
-    # 默认文章作者（可在front-matter中覆盖）
     author:
       avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
       name: Weikun Han
-      url: 
-  ## The widget config
-  widget:
-    blogger:
-      class: blogger
-      display: [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
-      shape: rectangle
-      url: 
-      title: Weikun Han
-      subtitle: Research Assistant Intern at Oregon State University
-      jinrishici: false
-      social: true
-    toc:
-      class: toc
-      display: [desktop, mobile] # [desktop, mobile]
-      header:
-        icon: fas fa-list
-        title: Contents
-      list_number: false
-      min_depth: 2
-      max_depth: 5
+      url: https://weikunhan.github.io/
+    date:
+      icon: fas fa-calendar-alt
+      title: 'Created on: '
+      format: 'll' 
+    updated:
+      icon: fas fa-edit
+      title: 'Update on：'
+      format: 'll' 
+  ## The widget config move to source/_data/wigdet.yml
+  ##widget:
   ## The footer config
   footer:
     layout: [aplayer, social, info, copyright]
