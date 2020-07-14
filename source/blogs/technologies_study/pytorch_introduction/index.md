@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Standing on the Shoulders of Pytorch to Learn Deep Learning
+title: Standing on the Shoulders of Pytorch to Study Deep Learning
 date: 2020-7-12
 group: blogs
 mathjax: true
@@ -528,7 +528,7 @@ images_list[0].save('./logistic_regression.gif',
 
 {% image /images/pytorch_introduction_3.gif, 600px %}
 
-逻辑回归问题简单来讲就是在一个线性可分的数据中，找到一个线（如图中绿色的线），可以把两类数据分开。在IrisData这个封装好的类中，我抽取了两种花的数据（Setosa和versicolor），
+逻辑回归问题简单来讲就是在一个线性可分的数据中，找到一个线（如图中绿色的线），可以把两类数据分开。在IrisData这个封装好的类中，我抽取了两种花的数据（Setosa和versicolor）。
 
 {% image /images/pytorch_introduction_4.png, 600px %}
 
@@ -700,7 +700,7 @@ $$
 
 $$
 \begin{equation}
-J(\theta) = \frac{1}{m} \sum_{i=1}^m (h_\theta(x_i)) - (y_i))^2 
+J(\Theta) = \frac{1}{m} \sum_{i=1}^m (h_\Theta(x_i)) - (y_i))^2 
 \end{equation}
 $$
 
@@ -787,8 +787,8 @@ pytorch_tensor = torch.tensor(array_list)
 numpy_ndarray = np.array(array_list)
 print("Create PyTorch Tensor is: {}".format(pytorch_tensor))
 print("Create NumPy Ndarray is: {}".format(numpy_ndarray))
-print("Convert PyTorch Tensor to NumPy Ndarray is: {}".format(pytorch_tensor.numpy()==numpy_ndarray))
-print("Convert NumPy Ndarray to PyTorch Tensor is: {}".format(pytorch_tensor==torch.from_numpy(numpy_ndarray)))
+print("Convert PyTorch Tensor to NumPy Ndarray is same: {}".format(pytorch_tensor.numpy()==numpy_ndarray))
+print("Convert NumPy Ndarray to PyTorch Tensor is same: {}".format(pytorch_tensor==torch.from_numpy(numpy_ndarray)))
 print("The data type in PyTorch Tensor is: {}".format(pytorch_tensor.dtype))
 print("The data type in NumPy Ndarray is: {}".format(numpy_ndarray.dtype))
 ```
