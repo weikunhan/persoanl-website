@@ -822,7 +822,7 @@ print("The data type in NumPy Ndarray is: {}".format(numpy_ndarray.dtype))
 {% btns circle grid3 %}
 {% cell Deep Neural Networks with PyTorch, https://www.coursera.org/learn/deep-neural-networks-with-pytorch, fas fa-school %}
 {% cell PyTorch Examples, https://github.com/pytorch/examples, fab fa-github-square %}
-{% cell PyTorch Discuss, https://discuss.pytorch.org/, fas fa-question-circle %}
+{% cell PyTorch Discuss, https://discuss.pytorch.org/, fas fa-comments %}
 {% endbtns %}
 
 ## 7 Reference 引用

@@ -37,9 +37,9 @@ I plan to conduct research in the following reaches area:
 <br/> 
 
 {% btns circle grid5 %}
-{% cell Contact Me, mailto:weikun.han@g.ucla.com, fas fa-envelope-square %}
+{% cell Contact Me, mailto:weikun.han@g.ucla.edu, fab fa-mailchimp %}
 {% cell GitHub, https://github.com/weikunhan/, fab fa-github-square %}
 {% cell LinkedIn, https://www.linkedin.com/in/weikunhan/, fab fa-linkedin %}
-{% cell Google Scholar, https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/, fas fa-university %}
+{% cell Google Scholar, https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/, fas fa-id-card %}
 {% cell Curriculum Vitae, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents/resumes/curriculum_vitae_1.pdf, fas fa-file-download %}
 {% endbtns %}

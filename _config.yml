@@ -5,8 +5,8 @@
 # Site
 title: Weikun Han's Website
 subtitle: ''
-description: ''
-keywords:
+description: 'May world peace, without pride and prejudice 愿世界和平，没有骄傲和偏见'
+keywords: 'Weikun Han'
 author: Weikunu Han
 language: en
 timezone: ''
@@ -154,7 +154,7 @@ theme_config:
       others: true 
     logo: 
     title: Weikun Han
-    subtitle: '「Research Assistant Intern at Oregon State University」'
+    subtitle: '「Computer Vision Scientist」'
     search: 'Search...'
     features:
       - name: Home
@@ -173,7 +173,7 @@ theme_config:
         icon: fas fa-trophy
         url: /awards
       - name: Blogs
-        icon: fas fa-book
+        icon: fas fa-blog
         url: /blogs
   ## The navbar config
   navbar:
@@ -208,11 +208,15 @@ theme_config:
     social:
       - icon: fas fa-envelope-square
         url: mailto:weikunhan@gmail.com
+      - icon: fas fa-pen-square
+        url: https://www.zhihu.com/people/weikunhan
       - icon: fab fa-github-square
         url: https://github.com/weikunhan/
       - icon: fab fa-linkedin
         url: https://www.linkedin.com/in/weikunhan/
-      - icon: fas fa-university
+      - icon: fab fa-medium
+        url: https://medium.com/@weikunhan300
+      - icon: fas fa-id-card
         url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
       - icon: fas fa-file-download
         url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf

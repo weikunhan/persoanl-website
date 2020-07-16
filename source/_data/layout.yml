@@ -1,6 +1,6 @@
 # Layout Configuration
 on_list:
-  meta: [title, author, date, counter]
+  meta: [title, author, date, pin]
   sidebar: [blogger]
   readmore: Read More <i class="fas fa-chevron-right"></i>
 on_page:
