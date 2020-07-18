@@ -21,8 +21,12 @@ From the upsetting Caffe to the fast and stable TensorFlow, I have treated PyTor
 在过去工作的两年里，从令人跺脚的Caffe到后来快速稳定的TensorFlow，我一直对PyTorch带着有色眼镜。讲道理，之前的PyTorch还是更适合做研究，对于工业界的一整套东西（数据整合，模型训练，模型验证，模型服务）支持的并不是很理想。现在的PyTorch，可谓是深度学习框架的翘楚。首先，各种类的封装做的没话说，理解和自定义类非常简单。其次，API设计的非常人性，功能很全，使用起来非常方便。最后，官方文档写的很详细，官方教程很多，并且还有PyTorch社区帮忙回答各种问题。
 
 {% noteblock quote %}
+The interface of PyTorch is Python, but PyTorch mainly uses C++ to do the implementation. PyTorch uses a paradigm called the imperative style - eager execution. That is to say, each line of code requires the construction of a graph to define a part of the whole computation graph. Even if the overall computation graph has not yet finished, we can also independently execute these small computation graphs as components. This kind of method  for a dynamic computation graph is called define-by-run method  -Synced Tech
+
 PyTorch的接口是Python，但底层主要都是用C++实现的。PyTorch使用一种称之为 imperative/eager 的范式，即每一行代码都要求构建一个图以定义完整计算图的一个部分。即使完整的计算图还没有完成构建，我们也可以独立地执行这些作为组件的小计算图，这种动态计算图被称为define-by-run方法。- 机器之心 SyncedTech
 {% endnoteblock %}
+
+The above PyTorch introduction comes from Synced Tech. This introduction of PyTorch maybe most people don't know what is talking about, and it is not helpful for students to get started with PyTorch. However, the basic idea for this information could tell students that PyTorch has become fresh and refined because of this adventure design ideas. Since many students mainly concerned about how to get started PyTorch quickly, I will not introduce these design ideas here.
 
 上面这段摘自机器之心对PyTorch基本描述看起来很高大上，其实对同学入门PyTorch并没有太大帮助。但是因为上面这个设计理念，让PyTorch变的清新脱俗。因为大部分入门PyTorch的同学主要关心如何快速上手，所以，这里我就不再对这些高大上的设计理念展开更多的介绍。
 
