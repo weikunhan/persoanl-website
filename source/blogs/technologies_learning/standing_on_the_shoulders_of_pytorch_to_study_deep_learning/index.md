@@ -6,7 +6,7 @@ group: blogs
 mathjax: true
 ---
 
-{% image /images/pytorch_introduction_1.png, 600px, 当你学会站在巨人的肩膀上，你突然发现可以看到更远的山川 - 韩劲谦 %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_1.png, 600px, 当你学会站在巨人的肩膀上，你突然发现可以看到更远的山川 - 韩劲谦 %}
 
 <!-- more --> 
 
@@ -290,7 +290,7 @@ images_list[0].save('./linear_regression.gif',
 
 为了让同学更直观的看到训练过程，我将输入变量（特征值）的维度设置成1维。并且，我把整个训练过程可视化出来。
 
-{% image /images/pytorch_introduction_2.gif, 600px %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_2.gif, 600px %}
 
 线性回归分析简单来讲就是在一个线性分布的数据中，找到一个线（如图中的绿色的线），来拟合整个数据分布。代码中（9行到12行），我创建了一个线性分布的数据根据下面的式子（其中我加了一些高斯噪音，为了模拟真实生活中的数据）。
 
@@ -533,11 +533,11 @@ images_list[0].save('./logistic_regression.gif',
 
 为了让同学更直观的看到训练过程，我将输入变量（特征值）的维度设置成2维，并且处理的是一个二元分类问题。并且，我把整个训练过程可视化出来。
 
-{% image /images/pytorch_introduction_3.gif, 600px %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_3.gif, 600px %}
 
 逻辑回归问题简单来讲就是在一个线性可分的数据中，找到一个线（如图中绿色的线），可以把两类数据分开。在IrisData这个封装好的类中，我抽取了两种花的数据（Setosa和versicolor）。
 
-{% image /images/pytorch_introduction_4.png, 600px %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_4.png, 600px %}
 
 其中，红色点代表一类花，蓝色的点代表另一类花。萼片长度为X轴和萼片宽度为Y轴。从中的数据可以看出，这个数据在这两个维度上是线性可分的。
 
@@ -687,7 +687,7 @@ images_list[0].save('./neural_networks_regression_analysis.gif',
 
 为了让同学更直观的看到训练过程，我将输入变量（特征值）的维度设置成1维。并且，我把整个训练过程可视化出来。
 
-{% image /images/pytorch_introduction_5.gif, 600px %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_5.gif, 600px %}
 
 在3.2.1中，我解释过线性回归分析的算法。同理，这里用神经网络做回归分析，只需要将最后一个输出层改成输出的具体数值即可。这样就可以用来分析一个非线性分布的数据。从而找到一条线（如图中的绿色的线），来拟合整个数据分布。在ComplexeData这个封装好的类中, 我用下面的式子（其中我加了一些高斯噪音，为了模拟真实生活中的数据），创造了一个非线性的数据分布。
 
