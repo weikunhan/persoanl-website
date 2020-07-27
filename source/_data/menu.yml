@@ -15,8 +15,14 @@
   icon: fas fa-robot
   url: /projects
   rows:
-    - name: Coming Soon
-      url: 
+    - name: Research Projects
+      url: /
+    - name: hr
+    - name: 0pen Source Projects
+      url: /
+    - name: hr
+    - name: Individual Projects
+      url: /
 - name: Courses
   icon: fas fa-graduation-cap
   url: /courses

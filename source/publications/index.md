@@ -6,7 +6,7 @@ meta:
   footer: []
 ---
 
-## Selected Journal Publications
+{% span center logo blue bold h1, Selected Journal Publications %}
 
 * Tape nanolithography: a rapid and simple method for fabricating flexible, wearable nanophotonic devices
   Qiugu Wang, Weikun Han, Yifei Wang, Meng Lu and Liang Dong
@@ -14,7 +14,7 @@ meta:
 
 {% btn large center, See full publication list, /publications/journal_publications %}
 
-## Selected Conference Publications
+{% span center logo blue bold h1, Selected Conference Publications %}
 
 * Tape-based flexible metallic and dielectric nanophotonic devices and metamaterials
   Qiugu Wang, Weikun Han, Yifei Wang, Meng Lu and Liang Dong
