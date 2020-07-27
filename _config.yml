@@ -115,17 +115,17 @@ theme_config:
     sidebar:
       effect: [shadow, blur, floatable] 
     fontsize:
-      root: 18px
-      h1: 1.625rem
-      h2: 1.375rem
-      h3: 1.25rem
-      h4: 1.125rem
-      h5: 1rem
-      h6: 1rem
-      body: 1rem
-      list: .9375rem
-      meta: .875rem
-      code: .8125rem
+      root: 16px
+      h1: 1.5rem
+      h2: 1.4rem
+      h3: 1.3rem
+      h4: 1.2rem
+      h5: 1.0rem
+      h6: 1.0rem
+      body: 1.0rem
+      list: 1.0rem
+      meta: 0.9rem
+      code: 0.9rem
       footnote: .75rem
     fontfamily:
       logofont:
@@ -140,7 +140,7 @@ theme_config:
         url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/fonts/times_new_roman.ttf
         weight: normal
         style: normal
-        offset: 0.1rem # Correct baseline for zh-CN
+        offset: 
       codefont:
         fontfamily: 'Menlo, UbuntuMono, Monaco'
         name: 'Monaco'
