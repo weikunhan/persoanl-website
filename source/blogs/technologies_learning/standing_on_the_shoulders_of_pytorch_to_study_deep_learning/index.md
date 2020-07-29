@@ -16,7 +16,7 @@ With the development of deep learning, many deep learning frameworks are emergin
 
 随着深度学习发展，深度学习的框架也层出不穷。现在最流行的深度学习框架应该非PyTorch莫属了。有数据显示，在2020的CVPR论文中PyTorch占比是TensorFlow 4 倍。从公司退来之后，终于有机会接触PyTorch。上手PyTorch之后，只能用两个子形容：真香。
 
-From the upsetting Caffe to the fast and stable TensorFlow, I have treated PyTorch with rose-colored glasses in the past two years of work. To be honest, the previous PyTorch would be more suitable for research, and it didn't very support the end-to-end model pipeline in the industry (data processing, model training, model testing, and model serving). The current PyTorch is a real leader in the deep learning framework market. First of all,  to understand and customize classes in Pytorch is very easy due to it provides various capsulated classes, you only need inheritance the class that you want. Secondly, all APIs in Pytorch are user-friendly, full-featured, and convenient to use. Moreover, the official documentation is very detailed. There also have many official tutorials. Finally, the PyTorch community helps answer various questions.
+From the upsetting Caffe to the fast and stable TensorFlow, I treated PyTorch with rose-colored glasses in the past two years of work. To be honest, the previous PyTorch would be more suitable for research, and it didn't very support the end-to-end model pipeline in the industry (data processing, model training, model testing, and model serving). The current PyTorch is a real leader in the deep learning framework market. First of all,  to understand and customize classes in Pytorch is very easy due to it provides various capsulated classes, you only need inheritance the class that you want. Secondly, all APIs in Pytorch are user-friendly, full-featured, and convenient to use. Moreover, the official documentation is very detailed. There also have many official tutorials. Finally, the PyTorch community helps answer various questions.
 
 在过去工作的两年里，从令人跺脚的Caffe到后来快速稳定的TensorFlow，我一直对PyTorch带着有色眼镜。讲道理，之前的PyTorch还是更适合做研究，对于工业界的一整套东西（数据整合，模型训练，模型验证，模型服务）支持的并不是很理想。现在的PyTorch，可谓是深度学习框架的翘楚。首先，各种类的封装做的没话说，理解和自定义类非常简单。其次，API设计的非常人性，功能很全，使用起来非常方便。最后，官方文档写的很详细，官方教程很多，并且还有PyTorch社区帮忙回答各种问题。
 
@@ -34,6 +34,8 @@ The above PyTorch introduction comes from Synced Tech. This introduction of PyTo
 Isaac Newton said: "If I have seen further, it is by standing on the shoulders of giants." Similarly, PyTorch became so popular because it stands on the shoulders of giants as well. Many people say: "PyTorch's workflow is very close to  NumPy (scientific computing library in Python)." Therefore, PyTorch is most likely to stand on the shoulders of NumPy. Later, I will explain why PyTorch is by standing on the shoulders of NumPy.
 
 牛顿说过：“如果我看得更远一点的话，是因为我站在巨人的肩膀上”。 PyTorch之所以能变的如此流行，也是因为站在了巨人的肩上。PyTorch不是闭门造车，更不是从头一点一点开始。很多人说：“PyTorch的工作流程非常接近于Python的科学计算库NumPy”。如此说来，PyTorch站在了NumPy的肩膀上。后面的内容，我会说明为什么PyTorch站在了NumPy的肩膀上。
+
+As there are many kinds of PyTorch tutorials, I listed some PyTorch learning resources at the end. I hope that students will get what they need for these learning resources. In this blog, I will introduce a way to get started with PyTorch quickly. By studying this learning method as an example,  it is easy to get started with many large open-source projects. In the end, I hope this learning method can help many students.
 
 由于PyTorch各类教程很多，我在最后列出了一些PyTorch学习资源，希望同学们对这些学习资源各取所需。这篇博客，我以介绍如何快速上手PyTorch为例子，同时介绍一种快速上手大型项目的方法。希望这样的学习方法可以帮助到一些学生。
 
