@@ -41,6 +41,8 @@ As there are many kinds of PyTorch tutorials, I listed some PyTorch learning res
 
 ## 2 拨开迷雾见月明
 
+Now, if you are very interested in PyTorch, let me take you into the world of PyTorch. Here, how to quickly get started with PyTorch and use it for actual projects?
+
 现在，如果你对PyTorch非常感兴趣，让我带你来走进PyTorch世界。那么，如何快速上手PyTorch，应对实战项目呢？
 
 {% checkbox blue checked, 看官方文档 %}
