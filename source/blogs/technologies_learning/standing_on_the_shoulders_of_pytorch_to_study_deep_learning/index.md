@@ -45,11 +45,11 @@ Now, if you are very interested in PyTorch, let me take you into the world of Py
 
 现在，如果你对PyTorch非常感兴趣，让我带你来走进PyTorch世界。那么，如何快速上手PyTorch，应对实战项目呢？
 
-{% checkbox blue checked, 看官方文档 %}
-{% checkbox yellow checked, 看开源PyTorch项目 %}
-{% checkbox cyan checked, 看推荐PyTorch书籍 %}
-{% checkbox green checked, 上精品PyTorch网课 %}
-{% checkbox red checked, 大量练习写PyTorch代码！%}
+{% checkbox blue checked, Read official documentation 看官方文档 %}
+{% checkbox yellow checked, Read the open-source PyTorch project 看开源PyTorch项目 %}
+{% checkbox cyan checked, Read recommended PyTorch books 看推荐PyTorch书籍 %}
+{% checkbox green checked, Take PyTorch related class 上精品PyTorch网课 %}
+{% checkbox red checked, Code with PyTorch 大量练习写PyTorch代码！%}
 
 上面5点，最重要的是大量练习写PyTorch代码！但是，一般来讲接触到一个陌生的东西，第一步是源自开源项目，然后开始看官方文档。那么现在就看一个例子 - 如何正确的自学成才。
 
