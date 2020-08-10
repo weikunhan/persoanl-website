@@ -51,7 +51,9 @@ Now, if you are very interested in PyTorch, let me take you into the world of Py
 {% checkbox green checked, Take PyTorch related class 上精品PyTorch网课 %}
 {% checkbox red checked, Code with PyTorch 大量练习写PyTorch代码！%}
 
-上面5点，最重要的是大量练习写PyTorch代码！但是，一般来讲接触到一个陌生的东西，第一步是源自开源项目，然后开始看官方文档。那么现在就看一个例子 - 如何正确的自学成才。
+From the above 5 points, practicing to write the PyTorch code is the most important thing!  Generally speaking, the first step to learn a new tech is to check the open-source project. Next, you can try to read the official document. Now, let's take check an example which shows how to learn by yourself correctly.
+
+上面5点，最重要的是大量练习写PyTorch代码！一般来讲接触到一个陌生的东西，第一步是源自开源项目，然后开始看官方文档。那么现在就看一个例子 - 如何正确的自学成才。
 
 ```python
 import torch
