@@ -60,7 +60,7 @@ import torch
 import torch.nn as nn
 ```
 
-You will see many open-source PyTorch projects import above APIs. Thus, you can guess that the two APIs are the most important in PyTorch. The first API is torch, and it comes from NumPy. It not only has basic NumPy operation but also includes many basic functions that a deep learning framework should have. Because of torch API, it establishes a very popular deep learning framework - Pytorch. I can use the following example to illustrate that. Now,  let us first try how to use torch API to achieve the function of torch.nn.
+You will see many open-source PyTorch projects import above APIs. And, you can guess those two APIs are the most important in PyTorch. The first API is torch and it comes from NumPy. It not only has basic NumPy operation but also includes many basic functions that a deep learning framework should have. Because of torch API, it establishes a very popular deep learning framework - Pytorch. I can use the following example to illustrate why torch is the most essential API. Now, let us first try how to use torch API to achieve the function of torch.nn.
 
 很多开源PyTorch项目会看到上面的API。这也是PyTorch最重要的两个APIs。第一个API是torch， 基本是NumPy换了一个马甲，但是同时增加很多一个深度学习的框架应该有的基本功能。可以说，正式因为torch，才组建了如此高大上的深度学习的框架。我可以用下面的例子来说明，让我们试试如何用torch实现torch.nn的功能。
 
