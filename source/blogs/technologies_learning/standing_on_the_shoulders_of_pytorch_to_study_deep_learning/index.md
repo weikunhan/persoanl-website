@@ -51,7 +51,7 @@ Now, if you are very interested in PyTorch, let me take you into the world of Py
 {% checkbox green checked, Take PyTorch related class 上精品PyTorch网课 %}
 {% checkbox red checked, Code with PyTorch 大量练习写PyTorch代码！%}
 
-From the above 5 points, practicing to write the PyTorch code is the most important thing!  Generally speaking, the first step to learn a new tech is to check the open-source project. Next, you can try to read the official document. Now, let's take check an example which shows how to learn by yourself correctly.
+From the above 5 points, practicing to write the PyTorch code is the most important thing!  Generally speaking, the first step to learn a new tech is to check the open-source project. Next, you can try to read the official document. Now, let's follow an example to shows how to learn a new tech by yourself.
 
 上面5点，最重要的是大量练习写PyTorch代码！一般来讲接触到一个陌生的东西，第一步是源自开源项目，然后开始看官方文档。那么现在就看一个例子 - 如何正确的自学成才。
 
@@ -60,7 +60,9 @@ import torch
 import torch.nn as nn
 ```
 
-很多开源PyTorch项目会看到上面的API。这也是PyTorch最重要的两个APIs。第一个API是torch， 基本是NumPy换了一个马甲，但是同时增加很多一个深度学习的框架应该有的基本功能。可以说，正式因为torch，才组建了如此高大上的深度学习的框架。我们可以用下面的例子来说明，让我们试试如何用torch实现torch.nn的功能。
+You will see many open-source PyTorch projects import above APIs. Thus, you can guess that the two APIs are the most important in PyTorch. The first API is torch, and it comes from NumPy. It not only has basic NumPy operation but also includes many basic functions that a deep learning framework should have. Because of torch API, it establishes a very popular deep learning framework - Pytorch. I can use the following example to illustrate that. Now,  let us first try how to use torch API to achieve the function of torch.nn.
+
+很多开源PyTorch项目会看到上面的API。这也是PyTorch最重要的两个APIs。第一个API是torch， 基本是NumPy换了一个马甲，但是同时增加很多一个深度学习的框架应该有的基本功能。可以说，正式因为torch，才组建了如此高大上的深度学习的框架。我可以用下面的例子来说明，让我们试试如何用torch实现torch.nn的功能。
 
 ```python
 import torch
