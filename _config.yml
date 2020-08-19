@@ -107,7 +107,7 @@ deploy:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-volantis
+theme: volantis
 
 # Replace theme configs
 theme_config:
@@ -261,3 +261,6 @@ theme_config:
       volume: 0.3      
       list_max_height: 340px 
       list_folded: true
+  ## The customized rightmenu
+  rightmenu:
+    enable: false

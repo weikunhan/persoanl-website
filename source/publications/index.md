@@ -4,6 +4,7 @@ title: Publications
 meta:
   header: []
   footer: []
+sidebar: []
 ---
 
 {% span center logo blue bold h1, Selected Journal Publications %}
@@ -12,7 +13,7 @@ meta:
   Qiugu Wang, Weikun Han, Yifei Wang, Meng Lu and Liang Dong
   *Microsystems and Nanengineering, 4, 31*, 2018
 
-{% btn large center, See full publication list, /publications/journal_publications %}
+{% btn solid large center, See full publication list, /publications/journal_publications %}
 
 {% span center logo blue bold h1, Selected Conference Publications %}
 
@@ -21,4 +22,4 @@ meta:
   *IEEE 17th International Conference on Nanotechnology (IEEE-NANO)*, 2017 <br>
   {% span blue, Best Student Paper Award %}
 
-{% btn large center, See full publication list, /publications/conference_publications %}
+{% btn solid large center, See full publication list, /publications/conference_publications %}

@@ -4,6 +4,7 @@ title: Projects
 meta:
   header: []
   footer: []
+sidebar: []
 ---
 
 {% span center logo blue bold h1, Projects %}
