@@ -79,6 +79,8 @@ torch_loss = -(y * torch.log(torch.sigmoid(x)) + (1 - y) * torch.log(1 - torch.s
 print('Logistic Regression Cross Entropy Loss use torch: loss = {}'.format(torch_loss.item()))
 ```
 
+The above code is to show a loss function for classification problem - logistic regression. The mathematical equation is as follows:
+
 上面的代码展示了一个分类问题损失函数 - 逻辑回归。其数学表达式如下：
 
 $$
