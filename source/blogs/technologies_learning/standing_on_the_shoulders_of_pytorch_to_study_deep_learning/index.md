@@ -89,6 +89,8 @@ J(\theta) = - \frac{1}{m} \sum_{i=1}^m \lbrack y_i \log(h_\theta(x_i)) + (1 - y_
 \end{equation}
 $$
 
+The final result is the same from both implementations which are 1.884. From here, it is easy to see that using the torch operation can finial achieve many functions in torch.nn. The implementation may surprise some students and make it confidence for them to build their own deep learning frameworks. However, if directly use the torch operations to achieve many functions, it may need to write tens of thousands of extra lines of code. Not only that, but also this kind of code is less easy to maintain, hard to scale up, not possible to optimation, and became a potential risk for the compatibility. Therefore, PyTorch developers use a very important idea to design it - Object-Oriented Design. In the end, follow many design ideas and NumPy. They developed torch.nn, and following APIs: 
+
 最后结果两边的计算结果都是1.884。从这里开始很明显的看出：用torch基本的算子可以实现torch.nn的功能。看到这里，是不是感到很惊讶，感觉自己可以去做一个深度学习的框架了？别急，如果直接用torch的基本的算子实现的各种函数功能，可能需要写上万行多余的代码。而且这样的代码，对后期的维护、功能扩展、代码的性能优化、和其他硬软件的兼容都是灾难的铺垫！所以，PyTorch的开发人员利用编程中很重要的基本思想 - 面向对象编程。这个可能你都不清楚的基本思想，加上套了马甲的NumPy。不仅实现了torch.nn，还实现了：
 
 {% folding View All 查看全部 %}
