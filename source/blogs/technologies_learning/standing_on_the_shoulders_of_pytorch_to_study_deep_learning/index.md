@@ -135,6 +135,8 @@ And：
 
 {% endfolding %}
 
+All APIs above exist in Pytorch 1.5. Later on, if there are subsequent versions for PyTorch, please reference the official document!  Some students may not feel good once reading such large and complex documents. However, as an example, I previously listed. Those APIs all inherit from the basic operations - torch. Therefore, you should be able to take easy for such large and complex APIs and understand a study method:
+
 上面是列出的所有1.5版本所有PyTorch的API。日后如果PyTorch继续发达了，请参考官方文档！一般同学看到这么复杂的文档，心情肯定是很糟糕的。但是，正如我最开始举的例子，它们都是继承者们，没错是torch的继承者们。所以，读到这里，你应该明白一件事情：
 
 {% note success, 想要快速上手大型开源项目，首先抓住这个项目的核心。 %}
