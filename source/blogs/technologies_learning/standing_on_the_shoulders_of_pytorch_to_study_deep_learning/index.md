@@ -141,6 +141,8 @@ All APIs above exist in Pytorch 1.5. Later on, if there are subsequent versions 
 
 {% note success, The best way to quickly get started with large open-source projects is to understand the core component of the project. 想要快速上手大型开源项目，首先抓住这个项目的核心。 %}
 
+Here, it easy to see that torch is the core component of the project. Once you understand torch, you may start to check other APIs inherited from it. Now, how should we understand other APIs? Please check the next section. 
+
 这里的核心很明显就是torch，当你理解了torch。再开始找最需要理解的下一个继承者，很明显torch.nn需要搞明白。至于其他继承者们，应该怎么学呢？请看下面的分析。
 
 ## 3 分类讨论和按需理解
