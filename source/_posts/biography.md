@@ -16,16 +16,42 @@ Weikun Han was a computer vision scientist at Clobotics where he worked on multi
 
 Weikun Han received an M.S. degree in electrical and computer engineering from UCLA, supervised by Prof. Lei He. He received a B.S. degree in electrical engineering from ISU, supervised by Prof. Liang Dong. He also received the IEEE NANO best student paper award, and he co-authored 5 publications in major journals and conferences during the undergraduate research study.
 
-## Interests
+<br/>
 
-* Machine Learning
-* Deep Learning
-* Computer Vision
+{% span logo blue bold h3, Interests %}
 
-## Education
+<br/>
+<br/>
 
-* M.S., Electrical and Computer Engineering, University of California Los Angeles, 2018 
-* B.S., Electrical Engineering, Iowa State University, 2016
+{% btn large, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning ,fas fa-grin-wink %} 
+
+
+{% btn large, Deep Learning, https://en.wikipedia.org/wiki/Deep_learning,fas fa-grin-beam %} 
+
+
+{% btn large, Computer Vision,  https://en.wikipedia.org/wiki/Computer_vision ,fas fa-smile %}
+
+<br/>
+<br/>
+
+{% span logo blue bold h3, Education %}
+
+{% timeline %}
+
+{% timenode 2018 %}
+
+M.S., Electrical and Computer Engineering, University of California Los Angeles
+
+{% endtimenode %}
+
+{% timenode 2016 %}
+
+B.S., Electrical Engineering, Iowa State University, 
+
+{% endtimenode %}
+
+{% endtimeline %}
+
   
 
 

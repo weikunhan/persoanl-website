@@ -11,9 +11,9 @@ group: blogs
 
 ## 1 Overview 综述
 
-In computer vision, superpixels help to reduce the number of image primitives for subsequent processing. It converts the pixel-level image to the district-level image, which can be treated as the abstraction of original image information. There are many methods to generate superpixels but only have few attempts to generate it using deep neural networks. Recently, the researchers from The Pennsylvania State University proposed using a fully convolutional network to generate superpixels. The paper was published on CVPR2020, and superpixels would become much more popular with this state-of-art method. 
+In computer vision, superpixels help to reduce the number of image primitives for subsequent processing. It converts the pixel-level image to the district-level image, which can be treated as the abstraction of original image information. There are many methods to generate superpixels but only have few attempts to generate it using deep neural networks. Recent paper *Superpixel Segmentation with Fully Convolutional Networks*, the researchers from The Pennsylvania State University proposed using a fully convolutional network to generate superpixels. The paper was published on CVPR2020, and superpixels would become much more popular with this state-of-art method. 
 
-在计算机视觉中，超像素有助于减少用于后续处理的图像基元的数量。 它将像素级别的图像转换为区域级别的图像，可以将其视为原始图像信息的抽象。 生成超像素的方法有很多，但是只有很少的尝试使深度神经网络生成超像素。最近，宾大州立的研究人员提出了使用了全卷积网络来生成超像素的方式，论文发表在CVPR2020中。这种全新的超像素生成方式，给其应用带来更广阔的空间。
+在计算机视觉中，超像素有助于减少用于后续处理的图像基元的数量。 它将像素级别的图像转换为区域级别的图像，可以将其视为原始图像信息的抽象。 生成超像素的方法有很多，但是只有很少的尝试使深度神经网络生成超像素。最近一篇论文《Superpixel Segmentation with Fully Convolutional Networks》，宾大州立的研究人员提出了使用了全卷积网络来生成超像素的方式，论文发表在CVPR2020中。这种全新的超像素生成方式，给其应用带来更广阔的空间。
 
 In the paper, the author has pointed out the challenges to use a fully convolutional network to generate superpixels: "The standard convolution operation is defined on regular grids and becomes inefficient when applied to superpixels." Therefore, the author used a novel method that accelerates the superpixels generation. 
 
@@ -194,4 +194,18 @@ As shown in the figure below, it shows the results of SpixelFCN + PSMNet. The re
 如下图，最后看看具体超像经过SpixelFCN + PSMNet的结果，结果显示可以很好的捕捉到具体的细节。
 
 {% image /images/papers_reading/using_spixelfcn_to_generate_the_distinctive_superpixels/image_20.png, 600px, Fengting Yang，et al.，Superpixel Segmentation with Fully Convolutional Networks，CVPR 2020%}
+
+## 4 Note 最后寄语
+
+Welcome to communicate more with my friends who also like computer vision.
+
+希望和喜欢计算机视觉的朋友多多交流。
+
+## 5 Reference 引用
+
+{% folding View All 查看全部 %}
+
+* Fengting Yang, Qian Sun, Hailin Jin, Zihan Zhou, Superpixel segmentation with fully convolutional networks, CVPR, 2020
+
+{% endfolding %}
 

@@ -127,8 +127,8 @@ theme_config:
       h4: 1.2rem
       h5: 1.0rem
       h6: 1.0rem
-      body: 1.0rem
-      list: 1.0rem
+      body: 1.1rem
+      list: 1.1rem
       meta: 0.9rem
       code: 0.9rem
       footnote: .75rem

@@ -824,7 +824,7 @@ print("The data type in NumPy Ndarray is: {}".format(numpy_ndarray.dtype))
 
 最后PyTorch站在NumPy的肩膀上，一举横扫诸深度神经网络框架。那你是否想站在PyTorch的肩膀上，去探索深度学习的世界？
 
-## 5 最后寄语
+## 5 Note 最后寄语
 
 大量练习写PyTorch代码！很多东西靠看是学不会的，自动动手写一写。哪怕重写一些教程都比死记硬背的要好的多。
 
