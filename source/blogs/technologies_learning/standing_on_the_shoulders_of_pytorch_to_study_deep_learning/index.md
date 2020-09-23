@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Standing on the Shoulders of Pytorch to Study Deep Learning
-date: 2020-7-12
+date: 2020-9-23
 group: blogs
 mathjax: true
 ---

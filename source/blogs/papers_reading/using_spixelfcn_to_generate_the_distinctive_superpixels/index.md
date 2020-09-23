@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CVPR 2020 | Using SpixelFCN to Generate the Distinctive Superpixels
-date: 2020-7-25
+date: 2020-9-21
 group: blogs
 ---
 
