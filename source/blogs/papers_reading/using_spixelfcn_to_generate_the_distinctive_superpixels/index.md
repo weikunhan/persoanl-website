@@ -5,7 +5,7 @@ date: 2020-9-21
 group: blogs
 ---
 
-{% image /images/papers_reading/using_spixelfcn_to_generate_the_distinctive_superpixels/image_1.png, 600px, Paper Link：https://arxiv.org/abs/2003.12929，Code Liink: https://github.com/fuy34/superpixel_fcn%}
+{% image /images/papers_reading/using_spixelfcn_to_generate_the_distinctive_superpixels/image_1.png, 600px, Paper Link: https://arxiv.org/abs/2003.12929，Code Liink: https://github.com/fuy34/superpixel_fcn%}
 
 <!-- more --> 
 
