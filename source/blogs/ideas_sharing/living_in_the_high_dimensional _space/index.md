@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Living in the high dimensional space
-date: 2020-9-20
+date: 2020-9-23
 group: blogs
 ---
 
