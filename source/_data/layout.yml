@@ -1,12 +1,12 @@
 # Layout Configuration
 on_list:
-  meta: [title, author, date, pin]
+  meta: [title]
   sidebar: [blogger]
   readmore: Read More <i class="fas fa-chevron-right"></i>
 on_page:
   body: [article]
   meta:
-    header: [title, author, date, pin]
+    header: [title]
     footer: [updated]
   sidebar: [toc]
 on_post:
