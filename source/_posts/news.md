@@ -19,13 +19,13 @@ I will work as a Research Assistant in Electrical Engineering and Computer Scien
 
 {% timenode 6/1/2020 [learn more](http://web.engr.oregonstate.edu/~lif/)%}
 
-I will join Prof. Fuxin Li's research group, working as Research Assistant Intern on 3D Point Cloud algorithms.
+I will join Prof. Fuxin Li's research group, working as a Research Assistant Intern on 3D Point Cloud algorithms.
 
 {% endtimenode %}
 
 {% timenode 5/29/2020 [learn more](https://weikunhan.github.io/blogs/stories_recording/wrote_before_deciding_to_proceed_my_phd_study/index.html) %}
 
-I will resign from Clobotics Global. I am actively looking for a Computer Vision research group for the research study.
+I will resign from Clobotics Global, actively looking for a Computer Vision research group for the research study.
 
 {% endtimenode %}
 
