@@ -10,11 +10,11 @@ sidebar: []
 
 {% span logo blue bold h1, About %}
 
-Weikun Han is currently working as a research assistant for Dr. Fuxin Li on 3D Point Cloud algorithms at OSU. 
+I am a Research Assistant in Electrical Engineering and Computer Science at Oregon State University. I work with Prof. Fuxin Li on 3D Point Cloud algorithms. 
 
-Weikun Han was a computer vision scientist at Clobotics, where he worked on multiple computer vision tasks (image classification, object detection, semantic segmentation). Besides modeling many real-life challenging problems, Weikun Han was a machine learning engineer to work on many system design tasks (ceiling analysis dashboard, active learning pipeline, image retrieval system, distributed data pipeline, online learning pipeline). Moreover, He was a software development engineer to work on many infrastructure development tasks (product search website, data operations platform). 
+Previously, I was a Computer Vision Scientist at Clobotics Global, working on multiple Computer Vision tasks (image classification, object detection, semantic segmentation) to provide an end-end AI solution for global consumer goods companies. Besides modeling many real-life challenging problems, I was a Machine Learning Engineer working on many system design tasks (ceiling analysis dashboard, active learning pipeline, image retrieval system, distributed data pipeline, online learning pipeline). Moreover, I was a Software Development Engineer working on many infrastructure development tasks (product search website, data operations platform). 
 
-Weikun Han received an M.S. degree in electrical and computer engineering from UCLA, supervised by Prof. Lei He. He received a B.S. degree in electrical engineering from ISU, supervised by Prof. Liang Dong. He also received the IEEE NANO best student paper award, and he co-authored five publications in major journals and conferences during the undergraduate research study.
+Weikun Han received an M.S. degree in Electrical and Computer Engineering from UCLA, supervised by Prof. Lei He. He received a B.S. degree in Electrical Engineering from ISU, supervised by Prof. Liang Dong. He also received the IEEE NANO best student paper award, and he co-authored five publications in major journals and conferences during the undergraduate research study.
 
 <br/>
 
