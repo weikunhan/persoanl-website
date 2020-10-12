@@ -111,55 +111,40 @@ theme: volantis
 
 # Replace theme configs
 theme_config:
-  ## The style config:
-  style:
-    navbar:
-      height: 64px
-      width: auto 
-      effect: [shadow, blur, floatable] 
-    sidebar:
-      effect: [shadow, blur, floatable] 
-    fontsize:
-      root: 16px
-      h1: 1.5rem
-      h2: 1.4rem
-      h3: 1.3rem
-      h4: 1.2rem
-      h5: 1.0rem
-      h6: 1.0rem
-      body: 1.1rem
-      list: 1.1rem
-      meta: 0.9rem
-      code: 0.9rem
-      footnote: .75rem
-    fontfamily:
-      logofont:
-        fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-        name: 'Varela Round'
-        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
-        weight: normal
-        style: normal
-      bodyfont:
-        fontfamily: 'UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-        name: 'UbuntuMono'
-        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/fonts/times_new_roman.ttf
-        weight: normal
-        style: normal
-        offset: 
-      codefont:
-        fontfamily: 'Menlo, UbuntuMono, Monaco'
-        name: 'Monaco'
-        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
-        weight: normal
-        style: normal   
+  ## The navbar config
+  navbar:
+    logo: 
+      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/new_weikun_han_web_1.png
+      icon: 
+      title: 
+    menu:
+      - name: Home
+        icon: fas fa-home
+        url: /
+      - name: Projects
+        icon: fas fa-robot
+        url: /projects
+      - name: Publications
+        icon: fas fa-file-alt
+        url: /publications
+      - name: Courses
+        icon: fas fa-graduation-cap
+        url: /courses
+      - name: Awards
+        icon: fas fa-trophy
+        url: /awards
+      - name: Blogs
+        icon: fas fa-book
+        url: /blogs
+    search: 'Search...'
   ## The cover config
   cover:
-    scheme: docs
+    height_scheme: half # full, half
+    layout_scheme: focus # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
     display:
       home: true
       archive: true
       others: true 
-    logo: 
     title: Weikun Han
     subtitle: '「Computer Vision Scientist」'
     search: 'Search...'
@@ -167,12 +152,12 @@ theme_config:
       - name: Home
         icon: fas fa-home
         url: /
-      - name: Publications
-        icon: fas fa-file-alt
-        url: /publications
       - name: Projects
         icon: fas fa-robot
         url: /projects
+      - name: Publications
+        icon: fas fa-file-alt
+        url: /publications
       - name: Courses
         icon: fas fa-graduation-cap
         url: /courses
@@ -182,36 +167,55 @@ theme_config:
       - name: Blogs
         icon: fas fa-blog
         url: /blogs
-  ## The navbar config
-  navbar:
-    logo: 
-      img: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/new_weikun_han_web_1.png
-      icon: 
-      title: 
-    ## Move to source/_data/menu.yml
-    #menu: 
-    search: 'Search...'
   ## The layout config move to source/_data/layout.yml
-  ##layout:
+  article:
+    preview:
+      scheme: landscape # landscape
+      pin_icon: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+      auto_title: false # false, true
+      auto_excerpt: false # false, true
+      line_style: solid # hidden, solid, dashed, dotted
+      author: false # true, false
+      readmore: auto # auto, always
   ## The meto library
-  meta:
-    author:
-      avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
-      name: Weikun Han
-      url: https://weikunhan.github.io/
-    date:
-      icon: fas fa-calendar-alt
-      title: 'Created on: '
-      format: 'll' 
-    updated:
-      icon: fas fa-edit
-      title: 'Update on：'
-      format: 'll' 
-  ## The widget config move to source/_data/wigdet.yml
-  ##widget:
+  sidebar:
+    widget_library:
+      blogger:
+        class: blogger
+        display: [desktop, mobile]
+        avatar: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/weikun_han_1.png
+        shape: rectangle
+        url: /
+        title: Weikun Han
+        subtitle: '「Computer Vision Scientist」'
+        jinrishici: false
+        social:
+          - icon: fas fa-envelope-square
+            url: mailto:weikunhan@gmail.com
+          - icon: fas fa-pen-square
+            url: https://www.zhihu.com/people/weikunhan
+          - icon: fab fa-github-square
+            url: https://github.com/weikunhan/
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/in/weikunhan/
+          - icon: fab fa-medium
+            url: https://medium.com/@weikunhan300
+          - icon: fas fa-id-card
+            url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
+          - icon: fas fa-file-download
+            url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf
+      toc:
+        class: toc
+        display: [desktop, mobile] 
+        header:
+          icon: fas fa-list
+          title: Contents
+        list_number: false
+        min_depth: 2
+        max_depth: 5
   ## The footer config
-  footer:
-    layout: [aplayer, social, info, copyright]
+  site_footer:
+    layout: [aplayer, social, info, analytics, copyright]
     social:
       - icon: fas fa-envelope-square
         url: mailto:weikunhan@gmail.com
@@ -227,7 +231,9 @@ theme_config:
         url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
       - icon: fas fa-file-download
         url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf
-    copyright: '[Copyright © 2020 Weikun Han](https://weikunhan.github.io)'
+    analytics: >
+      <span id="lc-sv">Total visits <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> times</span>
+    copyright: 'Copyright © 2020 Weikun Han'
     br: '<br>'
   ## The plugins config
   plugins:
@@ -259,8 +265,51 @@ theme_config:
       order: random       
       loop: all        
       volume: 0.3      
-      list_max_height: 340px 
+      list_max_height: 320px 
       list_folded: true
+    darkmodejs:
+      enable: true
   ## The customized rightmenu
   rightmenu:
     enable: false
+  ## The style config:
+  custom_css:
+    navbar:
+      height: 64px
+      width: auto 
+      effect: [shadow, blur, floatable] 
+    sidebar:
+      effect: [shadow, blur, floatable]
+    #fontsize:
+    #  root: 16px
+    #  h1: 1.5rem
+    #  h2: 1.4rem
+    #  h3: 1.3rem
+    #  h4: 1.2rem
+    #  h5: 1.0rem
+    #  h6: 1.0rem
+    #  body: 1.1rem
+    #  list: 1.1rem
+    #  meta: 0.9rem
+    #  code: 0.9rem
+    #  footnote: .75rem
+    fontfamily:
+      logofont:
+        fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+        name: 'Varela Round'
+        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+        weight: normal
+        style: normal
+      bodyfont:
+        fontfamily: 'UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+        name: 'UbuntuMono'
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/fonts/times_new_roman.ttf
+        weight: normal
+        style: normal
+        offset: 
+      codefont:
+        fontfamily: 'Menlo, UbuntuMono, Monaco'
+        name: 'Monaco'
+        url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
+        weight: normal
+        style: normal   

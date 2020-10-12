@@ -3,9 +3,13 @@ layout: page
 title: CVPR 2020 | Using SpixelFCN to Generate the Distinctive Superpixels
 date: 2-2020-7-25
 group: blogs
+top_meta: false
+bottom_meta: false
+sidebar: [toc]
+comments: false
 ---
 
-{% image /images/papers_reading/using_spixelfcn_to_generate_the_distinctive_superpixels/image_1.png, 600px, Paper Link: https://arxiv.org/abs/2003.12929，Code Liink: https://github.com/fuy34/superpixel_fcn%}
+{% image /images/papers_reading/using_spixelfcn_to_generate_the_distinctive_superpixels/image_1.png, width=600px, alt=Paper Link: https://arxiv.org/abs/2003.12929，Code Liink: https://github.com/fuy34/superpixel_fcn%}
 
 <!-- more --> 
 

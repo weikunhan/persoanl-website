@@ -46,4 +46,4 @@ $ npm list -g --depth 0
 └── npm@6.14.5
 ```
 
-How follow the [document](https://volantis.js.org/v3/getting-started/) to install volantis theme.
+How follow the [document](https://xaoxuu.com/wiki/volantis/) to install volantis theme.

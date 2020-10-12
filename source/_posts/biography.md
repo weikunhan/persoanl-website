@@ -1,18 +1,22 @@
 ---
 layout: page
-title: Biography
+seo_title: Biography
 pin: true
-meta:
-  header: []
-  footer: []
+top_meta: false
+bottom_meta: false
 sidebar: []
+comments: false
 ---
 
-{% span logo blue bold h1, About %}
+{% span logo blue h1, About %}
 
 I am a Research Assistant in Electrical Engineering and Computer Science at Oregon State University. I work with Prof. Fuxin Li on 3D Point Cloud algorithms.
 
+<br/>
+
 Previously, I was a Computer Vision Scientist at Clobotics Global, working on multiple Computer Vision tasks (image classification, object detection, semantic segmentation) to provide an end-end AI solution for global consumer goods companies. Besides modeling many real-life challenging problems, I was a Machine Learning Engineer working on system design tasks (ceiling analysis dashboard, active learning pipeline, image retrieval system, distributed data pipeline, online learning pipeline). Moreover, I was a Software Development Engineer working on infrastructure development tasks (product search website, data operations platform).
+
+<br/>
 
 Weikun Han received an M.S. degree in Electrical and Computer Engineering from UCLA, supervised by Prof. Lei He. He received a B.S. degree in Electrical Engineering from ISU, supervised by Prof. Liang Dong. He also received the IEEE NANO best student paper award, and he co-authored five publications in major journals and conferences during the undergraduate research study. 
 
@@ -23,13 +27,9 @@ Weikun Han received an M.S. degree in Electrical and Computer Engineering from U
 <br/>
 <br/>
 
-{% btn large, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning ,fas fa-grin-wink %} 
-
-
-{% btn large, Deep Learning, https://en.wikipedia.org/wiki/Deep_learning,fas fa-grin-beam %} 
-
-
-{% btn large, Computer Vision,  https://en.wikipedia.org/wiki/Computer_vision ,fas fa-smile %}
+{% btn solid large, Computer Vision,  https://en.wikipedia.org/wiki/Computer_vision ,fas fa-smile %}
+{% btn solid large, Deep Learning, https://en.wikipedia.org/wiki/Deep_learning,fas fa-grin-beam %} 
+{% btn solid large, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning ,fas fa-grin-wink %} 
 
 <br/>
 <br/>

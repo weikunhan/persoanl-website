@@ -3,9 +3,13 @@ layout: page
 title: Living in the high dimensional space
 date: 2020-9-23
 group: blogs
+top_meta: false
+bottom_meta: false
+sidebar: [toc]
+comments: false
 ---
 
-{% image /images/ideas_sharing/living_in_the_high_dimensional_space/image_1.png, 600px, Images from: Improving Deep Neural Networks: Hyperparameter tuning，Regularization and Optimization - Andrew Ng %}
+{% image /images/ideas_sharing/living_in_the_high_dimensional_space/image_1.png, width=600px, alt=Images from: Improving Deep Neural Networks: Hyperparameter tuning，Regularization and Optimization - Andrew Ng %}
 
 <!-- more --> 
 

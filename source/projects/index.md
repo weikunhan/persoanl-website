@@ -1,43 +1,59 @@
 ---
 layout: page
-title: Projects
-meta:
-  header: []
-  footer: []
+seo_title: Projects
+top_meta: false
+bottom_meta: false
 sidebar: []
+comments: false
 ---
 
-{% span center logo blue bold h1, Projects %}
+{% p center logo blue large, Projects %}
 
-{% tabs projects, 1 %}
+{% span logo blue h1, Research Projects %}
 
-<!-- tab Research Projects -->
+<br/>
 
-{% btns rounded  grid3 %}
-{% cell Superpixels Generator, https://github.com/weikunhan/superpixels-generator, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_computer_vision.png %}
-{% cell Coming soon, /projects, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_mechine_learning.png %}
-{% cell Coming soon, /projects, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_deep_learning.png %}
+{% span logo blue bold h3, CV/DL/ML %}
+
+{% btns circle center grid3 %}
+<a href=''>
+  <b>Superpixel-PCNN: Superpixel-PointConv Neural Network</b>
+  <img src='/images/projects/paper_4.png'>
+</a>
 {% endbtns %}
 
-<!-- endtab -->
+{% span logo blue bold h3, MEMS %}
 
-<!-- tab 0pen Source Projects -->
-
-{% btns rounded grid3 %}
-{% cell Tripadvisor Web Crawler, https://github.com/weikunhan/tripadvisor-web-crawler, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_code.png %}
+{% btns circle center grid3 %}
+<a href='https://www.nature.com/articles/s41378-018-0031-4'>
+  <b>Tape nanolithography: a rapid and simple method for fabricating flexible, wearable nanophotonic devices</b>
+  {% p, Qiugu Wang，Weikun Han，Yifei Wang，Meng Lu and Liang Dong %}
+  {% p, Microsystems and Nanengineering (Nature Research) %}
+  <img src='/images/projects/paper_1.png'>
+</a>
+<a href='https://ieeexplore.ieee.org/document/7400924'>
+  <b>Electrically tunable quasi-3-D mushroom plasmonic crystal</b>
+  {% p, Qiugu Wang，Weikun Han，Peng Liu，Liang Dong %}
+  {% p, Journal of Lightwave Technology %}
+  <img src='/images/projects/paper_2.png'>
+</a>
+<a href='https://aip.scitation.org/doi/10.1063/1.4942454'>
+  <b>Strain-tunable plasmonic crystal using elevated nanodisks with polarization-dependent characteristics</b>
+  {% p, Yifei Wang，Longju Liu，Qiugu Wang，Weikun Han，Meng Lu and Liang Dong %}
+  {% p, Applied Physics Letters (APL) %}
+  <img src='/images/projects/paper_3.png'>
+</a>
 {% endbtns %}
 
-<!-- endtab -->
+<br/>
 
-<!-- tab Individual Projects -->
+{% span logo blue h1, Open Source Projects %}
 
-{% btns rounded grid3 %}
-{% cell LeetCode Python, https://github.com/weikunhan/leetcode-summary-python, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_leetcode.png %}
-{% cell LeetCode C++, https://github.com/weikunhan/leetcode-summary-c-plus-plus, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_leetcode.png %}
-{% cell LeetCode Java, https://github.com/weikunhan/leetcode-summary-java, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_leetcode.png %}
-{% cell Comeing soon, /projects, https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_kaggle.png %}
-{% endbtns %}
+<center>
 
-<!-- endtab -->
+| {% ghcard weikunhan/superpixels-generator, theme=vue %} | {% ghcard weikunhan/leetcode-summary-python, theme=vue %} |
+| - | - |
+| {% ghcard bitcoin/bitcoin, theme=algolia %} | {% ghcard pytorch/pytorch, theme=onedark %} |
+| {% ghcard weikunhan/leetcode-summary-java, theme=vue %} | {% ghcard weikunhan/leetcode-summary-c-plus-plus, theme=vue %} |
 
-{% endtabs %}
+</center>

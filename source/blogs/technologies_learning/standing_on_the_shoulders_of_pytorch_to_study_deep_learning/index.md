@@ -4,9 +4,13 @@ title: Standing on the Shoulders of Pytorch to Study Deep Learning
 date: 1-2020-7-12
 group: blogs
 mathjax: true
+top_meta: false
+bottom_meta: false
+sidebar: [toc]
+comments: false
 ---
 
-{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_1.png, 600px, 当你学会站在巨人的肩膀上，你突然发现可以看到更远的山川 - 韩劲谦 %}
+{% image /images/technologies_learning/standing_on_the_shoulders_of_pytorch_to_study_deep_learning/image_1.png, width=600px, alt=当你学会站在巨人的肩膀上，你突然发现可以看到更远的山川 - 韩劲谦 %}
 
 <!-- more --> 
 

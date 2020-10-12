@@ -1,13 +1,13 @@
 ---
 layout: page
-title: News
-meta:
-  header: []
-  footer: []
+seo_title: News
+top_meta: false
+bottom_meta: false
 sidebar: []
+comments: false
 ---
 
-{% span logo blue bold h1, News %}
+{% span logo blue h1, News %}
 
 {% timeline %}
 
