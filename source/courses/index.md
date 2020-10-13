@@ -26,6 +26,8 @@ comments: false
 {% span logo blue bold h3, Year 2020 %}
 
 {% sitegroup %}
+{% site Coursera, url=https://coursera.org/share/27ac6bae410c4ce12afe195da7a011ee, screenshot=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/deeplearningai.png, avatar=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_deep_learning.png, description=Deep Learning %}
+{% site Coursera, url=https://coursera.org/share/d886aae5f9c35a2712e8651ff19669b4, screenshot=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/deeplearningai.png, avatar=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_mechine_learning.png, description=Sequence Models %}
 {% site Coursera, url=https://coursera.org/share/d3fc78870fe9cadb89f9cd56b38aef78, screenshot=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/deeplearningai.png, avatar=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_computer_vision.png, description=Convolutional Neural Networks %}
 {% site Coursera, url=https://coursera.org/share/7559afc3dd2aa17b074fae66257aabc9, screenshot=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/images/deeplearningai.png,, avatar=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_deep_learning.png, description=Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization %}
 {% site Coursera, url=https://coursera.org/share/0832df5e51a0ac1f67a7ee74b7c53453, screenshot=https://raw.githubusercontent.com/weikunhan/cdn-documents/master/images/deeplearningai.png, avatar=https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/icons/new_deep_learning.png, description=Neural Networks and Deep Learning %}

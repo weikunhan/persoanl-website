@@ -17,7 +17,7 @@ comments: false
 
 {% btns circle center grid3 %}
 <a href=''>
-  <b>Superpixel-PCNN: Superpixel-PointConv Neural Network</b>
+  <b>Superpixel PCNN: Superpixel PointConv Neural Network</b>
   <img src='/images/projects/paper_4.png'>
 </a>
 {% endbtns %}
