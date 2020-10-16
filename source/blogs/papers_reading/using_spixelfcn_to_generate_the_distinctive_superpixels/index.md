@@ -15,7 +15,7 @@ comments: false
 
 ## 1 Overview 综述
 
-In computer vision, superpixels help to reduce the number of image primitives for subsequent processing. It converts the pixel-level image to the district-level image, which can be treated as the abstraction of original image information. There are many methods to generate superpixels but only have few attempts to generate it using deep neural networks. A recent research study from Pennsylvania State University,  *Superpixel Segmentation with Fully Convolutional Networks*, and proposed using a fully convolutional network to generate superpixels. The paper was published on CVPR2020, and superpixels would become much more popular with this state-of-art method. 
+In computer vision, superpixels help to reduce the number of image primitives for subsequent processing. It converts the pixel-level image to the district-level image, which can be treated as the abstraction of original image information. There are many methods to generate superpixels but only have few attempts to generate it using deep neural networks. A recent study from Pennsylvania State University proposed a fully convolutional network to generate superpixels. The paper *Superpixel Segmentation with Fully Convolutional Networks* was published on CVPR2020. The state-of-art method of superpixels generation would become much more popular in the future. 
 
 在计算机视觉中，超像素有助于减少用于后续处理的图像基元的数量。 它将像素级别的图像转换为区域级别的图像，可以将其视为原始图像信息的抽象。 生成超像素的方法有很多，但是只有很少的尝试使深度神经网络生成超像素。最近一篇论文《Superpixel Segmentation with Fully Convolutional Networks》，宾大州立的研究人员提出了使用了全卷积网络来生成超像素的方式，论文发表在CVPR2020中。这种全新的超像素生成方式，给其应用带来更广阔的空间。
 
@@ -27,7 +27,7 @@ Researchers pointed out the challenges of using a fully convolutional network to
 
 In this paper:
 
-* The author first proposed a method to generate superpixels with a fully convolutional network. According to experimental results, their approach is comparable to state-of-the-art superpixel segmentation performance. At the same time, the superpixels generation speed is 50fps.
+* The author first proposed a method to generate superpixels with a fully convolutional network. According to experimental results, their approach is comparable to state-of-the-art superpixel segmentation performance. Besides, the superpixels generation speed is 50fps, which is faster than the previous research study.
 * The author second developed an architecture for dense prediction tasks based on predicted superpixels, which can boost the performance to generate high-resolution outputs. The architecture is combined with a  superpixels generation into popular network architecture for stereo matching. In this way, it helps improve disparity estimation accuracy. 
 
 在这篇论文：
@@ -51,7 +51,7 @@ In my opinion, there are two points I can learn from it:
 
 In my opinion, two points need to pay attention to: 
 
-* First, they used a fully convolutional network to generate superpixels. And they take advantage of 3 x 3 regular grid (total nine grid cells included). In other words, such local information only produces a fixed number of superpixels. If there are some cases or data, it is hard to get more superpixels and control the generated superpixel. 
+* First, they used a fully convolutional network to generate superpixels. And they took advantage of 3 x 3 regular grid (total nine grid cells included). In other words, such local information only produces a fixed number of superpixels. If there are some cases or data, it is hard to get more superpixels and control the generated superpixel. 
 * Second, when the fully convolutional network is used to generate superpixels combined with deep neural networks, it could reduce the output efficiency even though it may make results better. In this paper, the author stated that the superpixels generation speed is 50fps. Tt possible that the overall inference speed is about 50fps or even lower after combining all. Therefore, the idea may be hard to apply to many applications if there is no better way to solve them.
 
 个人认为，本文有几个地方需要注意：
