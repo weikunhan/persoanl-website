@@ -203,7 +203,7 @@ theme_config:
           - icon: fas fa-id-card
             url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
           - icon: fas fa-file-download
-            url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf
+            url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_3.pdf
       toc:
         class: toc
         display: [desktop, mobile] 
@@ -230,7 +230,7 @@ theme_config:
       - icon: fas fa-id-card
         url: https://scholar.google.com/citations?user=MOfRj_YAAAAJ&hl=en/
       - icon: fas fa-file-download
-        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_1.pdf
+        url: https://cdn.jsdelivr.net/gh/weikunhan/cdn-documents@latest/resumes/curriculum_vitae_3.pdf
     analytics: >
       <span id="lc-sv">Total visits <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> times</span>
     copyright: 'Copyright © 2020 Weikun Han'
