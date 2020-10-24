@@ -14,7 +14,7 @@ I am currently a Research Assistant in Electrical Engineering and Computer Scien
 
 <br/>
 
-Previously, I was a Computer Vision Scientist at Clobotics Global, researching numerous feasible algorithms for Image Classification and Object Detection to improve the Product Recognition cloud engine for global consumer goods companies. Besides implementing state-of-art algorithms and optimizing its performance for the end-to-end AI product, I was a Machine Learning Engineer working on many AI system design tasks, such as Ceiling Analysis dashboards, Active Learning pipeline, Image Retrieval system, Distributed Data pipeline and Online Learning pipeline. Moreover, I was a Software Development Engineer working on AI infrastructure development tasks, such as the Product Search website and Data Operations platform.
+Previously, I was a Computer Vision Scientist at Clobotics Global, researching numerous feasible algorithms for Image Classification and Object Detection to improve the Product Recognition cloud engine for global consumer goods companies. Besides implementing state-of-art algorithms and optimizing its performance for the end-to-end AI product, I was a Machine Learning Engineer working on many AI system design tasks, such as Ceiling Analysis dashboards, Active Learning pipeline, Image Retrieval system, Distributed Data pipeline, and Online Learning pipeline. Moreover, I was a Software Development Engineer working on AI infrastructure development tasks, such as the Product Search website and Data Operations platform.
 
 <br/>
 
