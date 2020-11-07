@@ -10,11 +10,11 @@ comments: false
 
 {% span logo blue h1, About %}
 
-I am currently a Research Assistant in Electrical Engineering and Computer Science at Oregon State University. I research Deep Learning on 3D Point Cloud algorithms, supervised by Prof. Fuxin Li.
+I am currently a Research Assistant in Electrical Engineering and Computer Science at Oregon State University. I am researching deep learning algorithms on 3D point clouds, supervised by Prof. Fuxin Li.
 
 <br/>
 
-Previously, I was a Computer Vision Scientist at Clobotics Global, researching numerous feasible algorithms for Image Classification and Object Detection to improve the Product Recognition cloud engine for global consumer goods companies. Besides implementing state-of-art algorithms and optimizing its performance for the end-to-end AI product, I was a Machine Learning Engineer working on many AI system design tasks, such as Ceiling Analysis dashboards, Active Learning pipeline, Image Retrieval system, Distributed Data pipeline, and Online Learning pipeline. Moreover, I was a Software Development Engineer working on AI infrastructure development tasks, such as the Product Search website and Data Operations platform.
+Previously, I was a Computer Vision Scientist at Clobotics Global, researching numerous feasible deep learning algorithms for image classification and object detection to improve the product recognition cloud engine for retail insights as a service (RIAAS). Besides implementing state-of-art algorithms and optimizing its performance for the end-to-end AI product, I was a Machine Learning Engineer working on many AI infrastructure development, such as ceiling analysis dashboards, active learning pipeline, image retrieval system, distributed data pipeline, product search website, and data operations platform.
 
 <br/>
 
